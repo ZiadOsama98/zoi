@@ -1,0 +1,195 @@
+
+
+
+@media (max-width: 576px){
+
+     /* start header & menu */
+
+
+    .container{
+      display: block;
+      width: 85%;
+    }
+    .parent .container .header{
+      display: block;
+    }
+    .parent .container .header div{
+      display: block;
+      text-align: center;
+      margin-bottom: 3px;
+    }
+  
+    .menu{
+      display: block;
+    }
+    .menu > div{
+      justify-content: center;
+      margin-top: 5px;
+    }
+  
+    .menu div:last-child{
+      margin-top: 0;
+    }
+    .menu div:last-child ul{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .menu div:last-child ul li{
+      margin-left: 0;
+      text-align: center;
+  }
+    .menu div:last-child ul li:hover{
+      background-color: #5bc1ac;
+      width: 100%;
+    }
+    .menu div:last-child ul li:hover a{
+      color: #fff;
+    }
+  
+    .menu div:last-child ul li:last-child{
+      margin-top: 15px;
+      display: block;
+      background-color: #fff;
+    }
+  
+  
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+
+     
+    
+    
+    
+    /* start content */
+
+    .content-1 img{
+        display: block;
+        margin-top: 15px;
+    }
+    .content-1 div{
+        display: none;
+    }
+    .content-2 .container .content2-imgs{
+        display: block;
+        text-align: center;
+    }
+    .content-2 .container .content2-imgs div{
+        margin-left: 5px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .content-3 .container{
+        padding: 10px 0;
+    }
+    .content-3 .container .content3-parent{
+        display: block;
+    }
+    .content-3 .container .content3-parent .box2{
+      margin-top: 4px;
+    }
+    .content-3 .container .content3-parent .box1 img{
+      width: 100%;
+    }
+    .content-3 .container .content3-parent .box3{
+        display: block;
+        margin-top: 4px;
+    }
+    .content-3 .container .content3-parent .box3 .box3-first{
+        margin-bottom: 4px;
+    }
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+
+   /* start contact me */
+
+
+    .container .contact-me{
+      display: block;
+      text-align: center;
+    }
+    .container .contact-me .contact-information{
+      width: 100%;
+      text-align: center;
+    }
+    .container .contact-me .contact-information button{
+      margin-right: 50px;
+    }
+    .container .contact-me form{
+      width: 100%;
+      margin: 5px 0;
+    }
+    .container .contact-me form input{
+      display: block;
+      width: 60%;
+      margin: auto;
+    }
+    .container .contact-me form input:first-of-type{
+      margin-bottom: 20px;
+    }
+
+    
+    
+    /* ------------------------------------------------------------------------------------------------------------------------------- */
+    
+    
+    
+    /* start footer */
+
+
+    .footer{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(3,auto);
+      width: 100%;
+      margin: auto;
+    }
+    .footer div{
+      grid-column: span 2;
+      text-align: center;
+    }
+    .footer div img{
+      margin: 0;
+    }
+    .footer ul{
+      margin-top: 40px;
+    }
+    .footer ul:nth-child(2){
+      grid-column: span 1;
+      text-align: center;
+    }
+    .footer ul:nth-child(3){
+      grid-column: span 1;
+      text-align: center;
+    }
+    .footer ul:nth-child(4){
+      grid-column: span 2;
+      text-align: center;
+    }
+
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
